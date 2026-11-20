@@ -1,0 +1,30 @@
+Package: flourishR
+Title: Tools for Reproducible Wellbeing and Survey Data Analysis
+Version: 0.1.0
+Authors@R: 
+    person(
+        given = "Taylor G.",
+        family = "Hill",
+        email = "thill001@dundee.ac.uk",
+				role = c("aut", "cre", "cph"))
+Description: Provides lightweight tools for common tasks in wellbeing and
+    survey data analysis, including recoding survey missing values,
+    converting labelled variables, checking missingness, scoring
+    multi-item scales, conducting analyses across countries, and
+    visualising cross-national and longitudinal outcomes. Functions are
+    designed to support transparent and reproducible workflows with
+    large-scale survey and longitudinal data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: dplyr, ggplot2, haven, rlang
+Config/roxygen2/version: 8.1.0
+URL: https://github.com/hilltaylor27/flourishR
+BugReports: https://github.com/hilltaylor27/flourishR/issues
+NeedsCompilation: no
+Packaged: 2026-11-02 12:00:37 UTC; taylorhill
+Author: Taylor G. Hill [aut, cre, cph]
+Maintainer: Taylor G. Hill <thill001@dundee.ac.uk>
+Repository: CRAN
+Date/Publication: 2026-11-20 12:40:11 UTC
